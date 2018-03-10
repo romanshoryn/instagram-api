@@ -2,7 +2,7 @@ module Instagram
   module Configuration
     VALID_OPTIONS_KEYS = [:endpoint].freeze
 
-    DEFAULT_ENDPOINT = 'https://www.instagram.com/'.freeze
+    DEFAULT_ENDPOINT = 'https://www.instagram.com'.freeze
 
     attr_accessor *VALID_OPTIONS_KEYS
 
