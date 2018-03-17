@@ -1,4 +1,5 @@
 require File.expand_path('../request', __FILE__)
+require File.expand_path('../response', __FILE__)
 
 module Instagram
   class API

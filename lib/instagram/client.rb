@@ -1,4 +1,6 @@
 module Instagram
+  Dir[File.expand_path('../models/*.rb', __FILE__)].each{ |f| require f }
+
   class Client < API
     Dir[File.expand_path('../client/*.rb', __FILE__)].each{ |f| require f }
 
